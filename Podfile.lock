@@ -1,0 +1,74 @@
+PODS:
+  - MaterialComponents/AnimationTiming (84.1.1)
+  - MaterialComponents/BottomAppBar (84.1.1):
+    - MaterialComponents/Buttons
+    - MaterialComponents/NavigationBar
+    - MaterialComponents/private/Math
+    - MDFInternationalization
+  - "MaterialComponents/BottomAppBar+ColorThemer (84.1.1)":
+    - MaterialComponents/BottomAppBar
+    - MaterialComponents/Themes
+  - MaterialComponents/ButtonBar (84.1.1):
+    - MaterialComponents/Buttons
+    - MaterialComponents/private/Application
+    - MDFInternationalization
+  - MaterialComponents/Buttons (84.1.1):
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Shapes
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Ink (84.1.1):
+    - MaterialComponents/private/Math
+  - MaterialComponents/NavigationBar (84.1.1):
+    - MaterialComponents/ButtonBar
+    - MaterialComponents/private/Math
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/private/Application (84.1.1)
+  - MaterialComponents/private/Math (84.1.1)
+  - MaterialComponents/Ripple (84.1.1):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Math
+  - MaterialComponents/schemes/Color (84.1.1)
+  - MaterialComponents/schemes/Typography (84.1.1):
+    - MaterialComponents/Typography
+  - MaterialComponents/ShadowElevations (84.1.1)
+  - MaterialComponents/ShadowLayer (84.1.1):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Shapes (84.1.1):
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/Themes (84.1.1):
+    - MaterialComponents/schemes/Color
+    - MaterialComponents/schemes/Typography
+  - MaterialComponents/Typography (84.1.1):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+  - MDFTextAccessibility (2.0.0)
+
+DEPENDENCIES:
+  - MaterialComponents/BottomAppBar
+  - "MaterialComponents/BottomAppBar+ColorThemer"
+  - MaterialComponents/Buttons
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+
+SPEC CHECKSUMS:
+  MaterialComponents: 85832ad0a4a7c0113f67330fa135b9702aae7f93
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
+
+PODFILE CHECKSUM: 918a4c2760de5c32218281ea482e040283c77c86
+
+COCOAPODS: 1.6.1
