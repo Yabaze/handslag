@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F9207A4D8AD6317443898A5 /* Pods_handslag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E045B2D9466CE97DA3C9A3 /* Pods_handslag.framework */; };
 		E9288CB923118D2C00DCD0FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9288CB823118D2C00DCD0FD /* AppDelegate.swift */; };
-		E9288CBB23118D2C00DCD0FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9288CBA23118D2C00DCD0FD /* ViewController.swift */; };
+		E9288CBB23118D2C00DCD0FD /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9288CBA23118D2C00DCD0FD /* HomePageViewController.swift */; };
 		E9288CBE23118D2C00DCD0FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9288CBC23118D2C00DCD0FD /* Main.storyboard */; };
 		E9288CC123118D2C00DCD0FD /* handslag.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9288CBF23118D2C00DCD0FD /* handslag.xcdatamodeld */; };
 		E9288CC323118D2E00DCD0FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9288CC223118D2E00DCD0FD /* Assets.xcassets */; };
 		E9288CC623118D2E00DCD0FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9288CC423118D2E00DCD0FD /* LaunchScreen.storyboard */; };
+		E9288CD023119B1C00DCD0FD /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9288CCE23119B1C00DCD0FD /* HomePageViewController.swift */; };
+		E9288CD123119B1C00DCD0FD /* HomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9288CCF23119B1C00DCD0FD /* HomePageViewController.xib */; };
+		E9288CD523119B8A00DCD0FD /* RadarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9288CD323119B8A00DCD0FD /* RadarViewController.swift */; };
+		E9288CD623119B8A00DCD0FD /* RadarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9288CD423119B8A00DCD0FD /* RadarViewController.xib */; };
+		E9288CDA23119BA800DCD0FD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9288CD823119BA800DCD0FD /* ProfileViewController.swift */; };
+		E9288CDB23119BA800DCD0FD /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9288CD923119BA800DCD0FD /* ProfileViewController.xib */; };
+		E9288CDF23119BCD00DCD0FD /* OffersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9288CDD23119BCD00DCD0FD /* OffersViewController.swift */; };
+		E9288CE023119BCD00DCD0FD /* OffersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9288CDE23119BCD00DCD0FD /* OffersViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D2044D8B5B0C06E70F2A790 /* Pods-handslag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-handslag.release.xcconfig"; path = "Target Support Files/Pods-handslag/Pods-handslag.release.xcconfig"; sourceTree = "<group>"; };
+		E7E045B2D9466CE97DA3C9A3 /* Pods_handslag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_handslag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9288CB523118D2C00DCD0FD /* handslag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = handslag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9288CB823118D2C00DCD0FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E9288CBA23118D2C00DCD0FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9288CBA23118D2C00DCD0FD /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		E9288CBD23118D2C00DCD0FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9288CC023118D2C00DCD0FD /* handslag.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = handslag.xcdatamodel; sourceTree = "<group>"; };
 		E9288CC223118D2E00DCD0FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9288CC523118D2E00DCD0FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9288CC723118D2E00DCD0FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9288CCE23119B1C00DCD0FD /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		E9288CCF23119B1C00DCD0FD /* HomePageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePageViewController.xib; sourceTree = "<group>"; };
+		E9288CD323119B8A00DCD0FD /* RadarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarViewController.swift; sourceTree = "<group>"; };
+		E9288CD423119B8A00DCD0FD /* RadarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RadarViewController.xib; sourceTree = "<group>"; };
+		E9288CD823119BA800DCD0FD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E9288CD923119BA800DCD0FD /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		E9288CDD23119BCD00DCD0FD /* OffersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersViewController.swift; sourceTree = "<group>"; };
+		E9288CDE23119BCD00DCD0FD /* OffersViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OffersViewController.xib; sourceTree = "<group>"; };
+		FDB9A8E6ECC7860C0FE0BBAC /* Pods-handslag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-handslag.debug.xcconfig"; path = "Target Support Files/Pods-handslag/Pods-handslag.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F9207A4D8AD6317443898A5 /* Pods_handslag.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8BB97B59042CA93A6BD60C64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDB9A8E6ECC7860C0FE0BBAC /* Pods-handslag.debug.xcconfig */,
+				1D2044D8B5B0C06E70F2A790 /* Pods-handslag.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C0B049E8B92FD245A6C82290 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7E045B2D9466CE97DA3C9A3 /* Pods_handslag.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E9288CAC23118D2C00DCD0FD = {
 			isa = PBXGroup;
 			children = (
 				E9288CB723118D2C00DCD0FD /* handslag */,
 				E9288CB623118D2C00DCD0FD /* Products */,
+				8BB97B59042CA93A6BD60C64 /* Pods */,
+				C0B049E8B92FD245A6C82290 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +96,63 @@
 		E9288CB723118D2C00DCD0FD /* handslag */ = {
 			isa = PBXGroup;
 			children = (
+				E9288CCD23118E4900DCD0FD /* DashBoard */,
 				E9288CB823118D2C00DCD0FD /* AppDelegate.swift */,
-				E9288CBA23118D2C00DCD0FD /* ViewController.swift */,
 				E9288CBC23118D2C00DCD0FD /* Main.storyboard */,
 				E9288CC223118D2E00DCD0FD /* Assets.xcassets */,
 				E9288CC423118D2E00DCD0FD /* LaunchScreen.storyboard */,
 				E9288CC723118D2E00DCD0FD /* Info.plist */,
 				E9288CBF23118D2C00DCD0FD /* handslag.xcdatamodeld */,
+				E9288CD223119B2700DCD0FD /* HomePage */,
+				E9288CD723119B9000DCD0FD /* RadarPage */,
+				E9288CDC23119BAF00DCD0FD /* ProfilePage */,
+				E9288CE123119BD500DCD0FD /* OffersPage */,
 			);
 			path = handslag;
+			sourceTree = "<group>";
+		};
+		E9288CCD23118E4900DCD0FD /* DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				E9288CBA23118D2C00DCD0FD /* HomePageViewController.swift */,
+			);
+			path = DashBoard;
+			sourceTree = "<group>";
+		};
+		E9288CD223119B2700DCD0FD /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				E9288CCE23119B1C00DCD0FD /* HomePageViewController.swift */,
+				E9288CCF23119B1C00DCD0FD /* HomePageViewController.xib */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		E9288CD723119B9000DCD0FD /* RadarPage */ = {
+			isa = PBXGroup;
+			children = (
+				E9288CD323119B8A00DCD0FD /* RadarViewController.swift */,
+				E9288CD423119B8A00DCD0FD /* RadarViewController.xib */,
+			);
+			path = RadarPage;
+			sourceTree = "<group>";
+		};
+		E9288CDC23119BAF00DCD0FD /* ProfilePage */ = {
+			isa = PBXGroup;
+			children = (
+				E9288CD823119BA800DCD0FD /* ProfileViewController.swift */,
+				E9288CD923119BA800DCD0FD /* ProfileViewController.xib */,
+			);
+			path = ProfilePage;
+			sourceTree = "<group>";
+		};
+		E9288CE123119BD500DCD0FD /* OffersPage */ = {
+			isa = PBXGroup;
+			children = (
+				E9288CDD23119BCD00DCD0FD /* OffersViewController.swift */,
+				E9288CDE23119BCD00DCD0FD /* OffersViewController.xib */,
+			);
+			path = OffersPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9288CCA23118D2E00DCD0FD /* Build configuration list for PBXNativeTarget "handslag" */;
 			buildPhases = (
+				1F54C87E9BAD2C7A1FC90777 /* [CP] Check Pods Manifest.lock */,
 				E9288CB123118D2C00DCD0FD /* Sources */,
 				E9288CB223118D2C00DCD0FD /* Frameworks */,
 				E9288CB323118D2C00DCD0FD /* Resources */,
+				DB090BE438A02832F857928B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,21 +215,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9288CDB23119BA800DCD0FD /* ProfileViewController.xib in Resources */,
+				E9288CD123119B1C00DCD0FD /* HomePageViewController.xib in Resources */,
+				E9288CD623119B8A00DCD0FD /* RadarViewController.xib in Resources */,
 				E9288CC623118D2E00DCD0FD /* LaunchScreen.storyboard in Resources */,
 				E9288CC323118D2E00DCD0FD /* Assets.xcassets in Resources */,
+				E9288CE023119BCD00DCD0FD /* OffersViewController.xib in Resources */,
 				E9288CBE23118D2C00DCD0FD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F54C87E9BAD2C7A1FC90777 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-handslag-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB090BE438A02832F857928B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-handslag/Pods-handslag-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-handslag/Pods-handslag-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E9288CB123118D2C00DCD0FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9288CBB23118D2C00DCD0FD /* ViewController.swift in Sources */,
+				E9288CDA23119BA800DCD0FD /* ProfileViewController.swift in Sources */,
+				E9288CD023119B1C00DCD0FD /* HomePageViewController.swift in Sources */,
+				E9288CBB23118D2C00DCD0FD /* HomePageViewController.swift in Sources */,
 				E9288CC123118D2C00DCD0FD /* handslag.xcdatamodeld in Sources */,
+				E9288CD523119B8A00DCD0FD /* RadarViewController.swift in Sources */,
+				E9288CDF23119BCD00DCD0FD /* OffersViewController.swift in Sources */,
 				E9288CB923118D2C00DCD0FD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +433,7 @@
 		};
 		E9288CCB23118D2E00DCD0FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDB9A8E6ECC7860C0FE0BBAC /* Pods-handslag.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +452,7 @@
 		};
 		E9288CCC23118D2E00DCD0FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D2044D8B5B0C06E70F2A790 /* Pods-handslag.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
