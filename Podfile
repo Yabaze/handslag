@@ -9,5 +9,9 @@ target 'handslag' do
     pod 'MaterialComponents/BottomAppBar'
     pod 'MaterialComponents/BottomAppBar+ColorThemer'
     pod 'MaterialComponents/Buttons'
+    #pod 'MaterialComponents'
+    pod 'MaterialComponents/Buttons+ColorThemer'
+    pod 'MaterialComponents/Buttons+ButtonThemer'
+    pod 'MaterialComponents/TextFields'
 
 end

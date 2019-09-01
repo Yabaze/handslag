@@ -8,41 +8,71 @@
 
 /* Begin PBXBuildFile section */
 		8F9207A4D8AD6317443898A5 /* Pods_handslag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E045B2D9466CE97DA3C9A3 /* Pods_handslag.framework */; };
+		E903F38023119FB80059E3D0 /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E903F37F23119FB80059E3D0 /* DashBoardViewController.swift */; };
+		E90FA2352318217600227EAA /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90FA2342318217600227EAA /* HomePageView.swift */; };
+		E90FA237231821A600227EAA /* HomePageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E90FA236231821A600227EAA /* HomePageView.xib */; };
 		E9288CB923118D2C00DCD0FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9288CB823118D2C00DCD0FD /* AppDelegate.swift */; };
-		E9288CBB23118D2C00DCD0FD /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9288CBA23118D2C00DCD0FD /* HomePageViewController.swift */; };
 		E9288CBE23118D2C00DCD0FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9288CBC23118D2C00DCD0FD /* Main.storyboard */; };
 		E9288CC123118D2C00DCD0FD /* handslag.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9288CBF23118D2C00DCD0FD /* handslag.xcdatamodeld */; };
 		E9288CC323118D2E00DCD0FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9288CC223118D2E00DCD0FD /* Assets.xcassets */; };
 		E9288CC623118D2E00DCD0FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9288CC423118D2E00DCD0FD /* LaunchScreen.storyboard */; };
-		E9288CD023119B1C00DCD0FD /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9288CCE23119B1C00DCD0FD /* HomePageViewController.swift */; };
-		E9288CD123119B1C00DCD0FD /* HomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9288CCF23119B1C00DCD0FD /* HomePageViewController.xib */; };
-		E9288CD523119B8A00DCD0FD /* RadarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9288CD323119B8A00DCD0FD /* RadarViewController.swift */; };
-		E9288CD623119B8A00DCD0FD /* RadarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9288CD423119B8A00DCD0FD /* RadarViewController.xib */; };
-		E9288CDA23119BA800DCD0FD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9288CD823119BA800DCD0FD /* ProfileViewController.swift */; };
-		E9288CDB23119BA800DCD0FD /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9288CD923119BA800DCD0FD /* ProfileViewController.xib */; };
-		E9288CDF23119BCD00DCD0FD /* OffersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9288CDD23119BCD00DCD0FD /* OffersViewController.swift */; };
-		E9288CE023119BCD00DCD0FD /* OffersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9288CDE23119BCD00DCD0FD /* OffersViewController.xib */; };
+		E93B975E231BC6B800AF9392 /* EmailSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B975D231BC6B800AF9392 /* EmailSignUpViewController.swift */; };
+		E93B9760231BC75300AF9392 /* CommonFunctionalities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B975F231BC75300AF9392 /* CommonFunctionalities.swift */; };
+		E93B9762231BCB9B00AF9392 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B9761231BCB9B00AF9392 /* Checkbox.swift */; };
+		E93B9764231BE1B300AF9392 /* CongratulationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B9763231BE1B200AF9392 /* CongratulationViewController.swift */; };
+		E93B9766231BEF9700AF9392 /* PhoneNumberSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B9765231BEF9700AF9392 /* PhoneNumberSignUpViewController.swift */; };
+		E93B9769231C08B200AF9392 /* GetProfileDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B9768231C08B200AF9392 /* GetProfileDetailViewController.swift */; };
+		E93B976B231C295900AF9392 /* CameraCaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B976A231C295900AF9392 /* CameraCaptureViewController.swift */; };
+		E93B9796231C43B600AF9392 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B9795231C43B600AF9392 /* PreviewView.swift */; };
+		E9D224E82318C15C004CDE78 /* RadarPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9D224E72318C15C004CDE78 /* RadarPageView.xib */; };
+		E9D224EB2318C1CE004CDE78 /* RadarPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D224EA2318C1CE004CDE78 /* RadarPageView.swift */; };
+		E9D224ED2318C9F5004CDE78 /* OffersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D224EC2318C9F5004CDE78 /* OffersView.swift */; };
+		E9D224F02318CA10004CDE78 /* OffersView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9D224EF2318CA10004CDE78 /* OffersView.xib */; };
+		E9D224F22318CAFE004CDE78 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9D224F12318CAFE004CDE78 /* ProfileView.xib */; };
+		E9D224F52318CB29004CDE78 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D224F42318CB29004CDE78 /* ProfileView.swift */; };
+		E9D224F9231A1303004CDE78 /* LanguageSelectionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D224F8231A1303004CDE78 /* LanguageSelectionPage.swift */; };
+		E9D224FB231A1DEE004CDE78 /* LanguageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D224FA231A1C5D004CDE78 /* LanguageTableViewCell.swift */; };
+		E9EEB08E231B88B800BA9235 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EEB08D231B88B800BA9235 /* Defaults.swift */; };
+		E9EEB092231B8D5900BA9235 /* SlideShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EEB091231B8D5900BA9235 /* SlideShowViewController.swift */; };
+		E9EEB095231B938100BA9235 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9EEB094231B938100BA9235 /* Slide.xib */; };
+		E9EEB097231B93A200BA9235 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EEB096231B93A200BA9235 /* Slide.swift */; };
+		E9EEB099231BA92800BA9235 /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EEB098231BA92700BA9235 /* LoginPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D2044D8B5B0C06E70F2A790 /* Pods-handslag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-handslag.release.xcconfig"; path = "Target Support Files/Pods-handslag/Pods-handslag.release.xcconfig"; sourceTree = "<group>"; };
 		E7E045B2D9466CE97DA3C9A3 /* Pods_handslag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_handslag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E903F37F23119FB80059E3D0 /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		E90FA2342318217600227EAA /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		E90FA236231821A600227EAA /* HomePageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePageView.xib; sourceTree = "<group>"; };
 		E9288CB523118D2C00DCD0FD /* handslag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = handslag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9288CB823118D2C00DCD0FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E9288CBA23118D2C00DCD0FD /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		E9288CBD23118D2C00DCD0FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9288CC023118D2C00DCD0FD /* handslag.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = handslag.xcdatamodel; sourceTree = "<group>"; };
 		E9288CC223118D2E00DCD0FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9288CC523118D2E00DCD0FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9288CC723118D2E00DCD0FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9288CCE23119B1C00DCD0FD /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
-		E9288CCF23119B1C00DCD0FD /* HomePageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePageViewController.xib; sourceTree = "<group>"; };
-		E9288CD323119B8A00DCD0FD /* RadarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarViewController.swift; sourceTree = "<group>"; };
-		E9288CD423119B8A00DCD0FD /* RadarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RadarViewController.xib; sourceTree = "<group>"; };
-		E9288CD823119BA800DCD0FD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		E9288CD923119BA800DCD0FD /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
-		E9288CDD23119BCD00DCD0FD /* OffersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersViewController.swift; sourceTree = "<group>"; };
-		E9288CDE23119BCD00DCD0FD /* OffersViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OffersViewController.xib; sourceTree = "<group>"; };
+		E93B975D231BC6B800AF9392 /* EmailSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailSignUpViewController.swift; sourceTree = "<group>"; };
+		E93B975F231BC75300AF9392 /* CommonFunctionalities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFunctionalities.swift; sourceTree = "<group>"; };
+		E93B9761231BCB9B00AF9392 /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		E93B9763231BE1B200AF9392 /* CongratulationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratulationViewController.swift; sourceTree = "<group>"; };
+		E93B9765231BEF9700AF9392 /* PhoneNumberSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberSignUpViewController.swift; sourceTree = "<group>"; };
+		E93B9768231C08B200AF9392 /* GetProfileDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetProfileDetailViewController.swift; sourceTree = "<group>"; };
+		E93B976A231C295900AF9392 /* CameraCaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraCaptureViewController.swift; sourceTree = "<group>"; };
+		E93B9795231C43B600AF9392 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		E9D224E72318C15C004CDE78 /* RadarPageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RadarPageView.xib; sourceTree = "<group>"; };
+		E9D224EA2318C1CE004CDE78 /* RadarPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarPageView.swift; sourceTree = "<group>"; };
+		E9D224EC2318C9F5004CDE78 /* OffersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersView.swift; sourceTree = "<group>"; };
+		E9D224EF2318CA10004CDE78 /* OffersView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OffersView.xib; sourceTree = "<group>"; };
+		E9D224F12318CAFE004CDE78 /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		E9D224F42318CB29004CDE78 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		E9D224F8231A1303004CDE78 /* LanguageSelectionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSelectionPage.swift; sourceTree = "<group>"; };
+		E9D224FA231A1C5D004CDE78 /* LanguageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageTableViewCell.swift; sourceTree = "<group>"; };
+		E9EEB08D231B88B800BA9235 /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		E9EEB091231B8D5900BA9235 /* SlideShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideShowViewController.swift; sourceTree = "<group>"; };
+		E9EEB094231B938100BA9235 /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		E9EEB096231B93A200BA9235 /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		E9EEB098231BA92700BA9235 /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
 		FDB9A8E6ECC7860C0FE0BBAC /* Pods-handslag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-handslag.debug.xcconfig"; path = "Target Support Files/Pods-handslag/Pods-handslag.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,6 +126,7 @@
 		E9288CB723118D2C00DCD0FD /* handslag */ = {
 			isa = PBXGroup;
 			children = (
+				E9EEB090231B8D0B00BA9235 /* LanguageSelection */,
 				E9288CCD23118E4900DCD0FD /* DashBoard */,
 				E9288CB823118D2C00DCD0FD /* AppDelegate.swift */,
 				E9288CBC23118D2C00DCD0FD /* Main.storyboard */,
@@ -103,10 +134,13 @@
 				E9288CC423118D2E00DCD0FD /* LaunchScreen.storyboard */,
 				E9288CC723118D2E00DCD0FD /* Info.plist */,
 				E9288CBF23118D2C00DCD0FD /* handslag.xcdatamodeld */,
-				E9288CD223119B2700DCD0FD /* HomePage */,
-				E9288CD723119B9000DCD0FD /* RadarPage */,
-				E9288CDC23119BAF00DCD0FD /* ProfilePage */,
-				E9288CE123119BD500DCD0FD /* OffersPage */,
+				E9EEB08F231B8CF500BA9235 /* Common */,
+				E9EEB093231B937100BA9235 /* SlideShow */,
+				E9EEB098231BA92700BA9235 /* LoginPageViewController.swift */,
+				E93B9767231BEFA100AF9392 /* SignUp */,
+				E93B9768231C08B200AF9392 /* GetProfileDetailViewController.swift */,
+				E93B976A231C295900AF9392 /* CameraCaptureViewController.swift */,
+				E93B9795231C43B600AF9392 /* PreviewView.swift */,
 			);
 			path = handslag;
 			sourceTree = "<group>";
@@ -114,45 +148,88 @@
 		E9288CCD23118E4900DCD0FD /* DashBoard */ = {
 			isa = PBXGroup;
 			children = (
-				E9288CBA23118D2C00DCD0FD /* HomePageViewController.swift */,
+				E903F37F23119FB80059E3D0 /* DashBoardViewController.swift */,
+				E9D224E62318C0D8004CDE78 /* HomePage */,
+				E9D224E92318C199004CDE78 /* RadarPage */,
+				E9D224EE2318C9FC004CDE78 /* OffersPage */,
+				E9D224F32318CB0E004CDE78 /* ProfilePage */,
 			);
 			path = DashBoard;
 			sourceTree = "<group>";
 		};
-		E9288CD223119B2700DCD0FD /* HomePage */ = {
+		E93B9767231BEFA100AF9392 /* SignUp */ = {
 			isa = PBXGroup;
 			children = (
-				E9288CCE23119B1C00DCD0FD /* HomePageViewController.swift */,
-				E9288CCF23119B1C00DCD0FD /* HomePageViewController.xib */,
+				E93B975D231BC6B800AF9392 /* EmailSignUpViewController.swift */,
+				E93B9763231BE1B200AF9392 /* CongratulationViewController.swift */,
+				E93B9765231BEF9700AF9392 /* PhoneNumberSignUpViewController.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		E9D224E62318C0D8004CDE78 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				E90FA2342318217600227EAA /* HomePageView.swift */,
+				E90FA236231821A600227EAA /* HomePageView.xib */,
 			);
 			path = HomePage;
 			sourceTree = "<group>";
 		};
-		E9288CD723119B9000DCD0FD /* RadarPage */ = {
+		E9D224E92318C199004CDE78 /* RadarPage */ = {
 			isa = PBXGroup;
 			children = (
-				E9288CD323119B8A00DCD0FD /* RadarViewController.swift */,
-				E9288CD423119B8A00DCD0FD /* RadarViewController.xib */,
+				E9D224E72318C15C004CDE78 /* RadarPageView.xib */,
+				E9D224EA2318C1CE004CDE78 /* RadarPageView.swift */,
 			);
 			path = RadarPage;
 			sourceTree = "<group>";
 		};
-		E9288CDC23119BAF00DCD0FD /* ProfilePage */ = {
+		E9D224EE2318C9FC004CDE78 /* OffersPage */ = {
 			isa = PBXGroup;
 			children = (
-				E9288CD823119BA800DCD0FD /* ProfileViewController.swift */,
-				E9288CD923119BA800DCD0FD /* ProfileViewController.xib */,
+				E9D224EC2318C9F5004CDE78 /* OffersView.swift */,
+				E9D224EF2318CA10004CDE78 /* OffersView.xib */,
+			);
+			path = OffersPage;
+			sourceTree = "<group>";
+		};
+		E9D224F32318CB0E004CDE78 /* ProfilePage */ = {
+			isa = PBXGroup;
+			children = (
+				E9D224F12318CAFE004CDE78 /* ProfileView.xib */,
+				E9D224F42318CB29004CDE78 /* ProfileView.swift */,
 			);
 			path = ProfilePage;
 			sourceTree = "<group>";
 		};
-		E9288CE123119BD500DCD0FD /* OffersPage */ = {
+		E9EEB08F231B8CF500BA9235 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				E9288CDD23119BCD00DCD0FD /* OffersViewController.swift */,
-				E9288CDE23119BCD00DCD0FD /* OffersViewController.xib */,
+				E9EEB08D231B88B800BA9235 /* Defaults.swift */,
+				E93B975F231BC75300AF9392 /* CommonFunctionalities.swift */,
+				E93B9761231BCB9B00AF9392 /* Checkbox.swift */,
 			);
-			path = OffersPage;
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E9EEB090231B8D0B00BA9235 /* LanguageSelection */ = {
+			isa = PBXGroup;
+			children = (
+				E9D224FA231A1C5D004CDE78 /* LanguageTableViewCell.swift */,
+				E9D224F8231A1303004CDE78 /* LanguageSelectionPage.swift */,
+			);
+			path = LanguageSelection;
+			sourceTree = "<group>";
+		};
+		E9EEB093231B937100BA9235 /* SlideShow */ = {
+			isa = PBXGroup;
+			children = (
+				E9EEB091231B8D5900BA9235 /* SlideShowViewController.swift */,
+				E9EEB094231B938100BA9235 /* Slide.xib */,
+				E9EEB096231B93A200BA9235 /* Slide.swift */,
+			);
+			path = SlideShow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,12 +292,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9288CDB23119BA800DCD0FD /* ProfileViewController.xib in Resources */,
-				E9288CD123119B1C00DCD0FD /* HomePageViewController.xib in Resources */,
-				E9288CD623119B8A00DCD0FD /* RadarViewController.xib in Resources */,
 				E9288CC623118D2E00DCD0FD /* LaunchScreen.storyboard in Resources */,
 				E9288CC323118D2E00DCD0FD /* Assets.xcassets in Resources */,
-				E9288CE023119BCD00DCD0FD /* OffersViewController.xib in Resources */,
+				E9D224F22318CAFE004CDE78 /* ProfileView.xib in Resources */,
+				E9EEB095231B938100BA9235 /* Slide.xib in Resources */,
+				E9D224E82318C15C004CDE78 /* RadarPageView.xib in Resources */,
+				E9D224F02318CA10004CDE78 /* OffersView.xib in Resources */,
+				E90FA237231821A600227EAA /* HomePageView.xib in Resources */,
 				E9288CBE23118D2C00DCD0FD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,12 +361,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9288CDA23119BA800DCD0FD /* ProfileViewController.swift in Sources */,
-				E9288CD023119B1C00DCD0FD /* HomePageViewController.swift in Sources */,
-				E9288CBB23118D2C00DCD0FD /* HomePageViewController.swift in Sources */,
+				E93B9762231BCB9B00AF9392 /* Checkbox.swift in Sources */,
+				E9EEB092231B8D5900BA9235 /* SlideShowViewController.swift in Sources */,
+				E93B9796231C43B600AF9392 /* PreviewView.swift in Sources */,
 				E9288CC123118D2C00DCD0FD /* handslag.xcdatamodeld in Sources */,
-				E9288CD523119B8A00DCD0FD /* RadarViewController.swift in Sources */,
-				E9288CDF23119BCD00DCD0FD /* OffersViewController.swift in Sources */,
+				E93B9769231C08B200AF9392 /* GetProfileDetailViewController.swift in Sources */,
+				E93B976B231C295900AF9392 /* CameraCaptureViewController.swift in Sources */,
+				E9D224EB2318C1CE004CDE78 /* RadarPageView.swift in Sources */,
+				E9EEB097231B93A200BA9235 /* Slide.swift in Sources */,
+				E9EEB099231BA92800BA9235 /* LoginPageViewController.swift in Sources */,
+				E903F38023119FB80059E3D0 /* DashBoardViewController.swift in Sources */,
+				E9D224FB231A1DEE004CDE78 /* LanguageTableViewCell.swift in Sources */,
+				E9D224ED2318C9F5004CDE78 /* OffersView.swift in Sources */,
+				E90FA2352318217600227EAA /* HomePageView.swift in Sources */,
+				E9D224F9231A1303004CDE78 /* LanguageSelectionPage.swift in Sources */,
+				E9EEB08E231B88B800BA9235 /* Defaults.swift in Sources */,
+				E93B9760231BC75300AF9392 /* CommonFunctionalities.swift in Sources */,
+				E93B975E231BC6B800AF9392 /* EmailSignUpViewController.swift in Sources */,
+				E93B9764231BE1B300AF9392 /* CongratulationViewController.swift in Sources */,
+				E9D224F52318CB29004CDE78 /* ProfileView.swift in Sources */,
+				E93B9766231BEF9700AF9392 /* PhoneNumberSignUpViewController.swift in Sources */,
 				E9288CB923118D2C00DCD0FD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
