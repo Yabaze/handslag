@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		8F9207A4D8AD6317443898A5 /* Pods_handslag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E045B2D9466CE97DA3C9A3 /* Pods_handslag.framework */; };
+		E90011DB231CCA47003990D8 /* PhotoPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90011DA231CCA47003990D8 /* PhotoPreviewViewController.swift */; };
+		E90011DE231CF747003990D8 /* CardInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90011DD231CF747003990D8 /* CardInformationViewController.swift */; };
+		E90011E0231D0536003990D8 /* CardInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = E90011DF231D0536003990D8 /* CardInfo.xib */; };
+		E90011E3231D0560003990D8 /* CardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90011E2231D0560003990D8 /* CardInfo.swift */; };
 		E903F38023119FB80059E3D0 /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E903F37F23119FB80059E3D0 /* DashBoardViewController.swift */; };
 		E90FA2352318217600227EAA /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90FA2342318217600227EAA /* HomePageView.swift */; };
 		E90FA237231821A600227EAA /* HomePageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E90FA236231821A600227EAA /* HomePageView.xib */; };
@@ -42,6 +46,10 @@
 /* Begin PBXFileReference section */
 		1D2044D8B5B0C06E70F2A790 /* Pods-handslag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-handslag.release.xcconfig"; path = "Target Support Files/Pods-handslag/Pods-handslag.release.xcconfig"; sourceTree = "<group>"; };
 		E7E045B2D9466CE97DA3C9A3 /* Pods_handslag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_handslag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90011DA231CCA47003990D8 /* PhotoPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPreviewViewController.swift; sourceTree = "<group>"; };
+		E90011DD231CF747003990D8 /* CardInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInformationViewController.swift; sourceTree = "<group>"; };
+		E90011DF231D0536003990D8 /* CardInfo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CardInfo.xib; path = ../CardInfo.xib; sourceTree = "<group>"; };
+		E90011E2231D0560003990D8 /* CardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfo.swift; sourceTree = "<group>"; };
 		E903F37F23119FB80059E3D0 /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
 		E90FA2342318217600227EAA /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
 		E90FA236231821A600227EAA /* HomePageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePageView.xib; sourceTree = "<group>"; };
@@ -105,6 +113,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E90011DC231CEBF9003990D8 /* CameraControl */ = {
+			isa = PBXGroup;
+			children = (
+				E93B9768231C08B200AF9392 /* GetProfileDetailViewController.swift */,
+				E93B976A231C295900AF9392 /* CameraCaptureViewController.swift */,
+				E93B9795231C43B600AF9392 /* PreviewView.swift */,
+				E90011DA231CCA47003990D8 /* PhotoPreviewViewController.swift */,
+			);
+			path = CameraControl;
+			sourceTree = "<group>";
+		};
+		E90011E1231D0541003990D8 /* CardInformation */ = {
+			isa = PBXGroup;
+			children = (
+				E90011DD231CF747003990D8 /* CardInformationViewController.swift */,
+				E90011DF231D0536003990D8 /* CardInfo.xib */,
+				E90011E2231D0560003990D8 /* CardInfo.swift */,
+			);
+			path = CardInformation;
+			sourceTree = "<group>";
+		};
 		E9288CAC23118D2C00DCD0FD = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +159,7 @@
 				E9288CCD23118E4900DCD0FD /* DashBoard */,
 				E9288CB823118D2C00DCD0FD /* AppDelegate.swift */,
 				E9288CBC23118D2C00DCD0FD /* Main.storyboard */,
+				E90011E1231D0541003990D8 /* CardInformation */,
 				E9288CC223118D2E00DCD0FD /* Assets.xcassets */,
 				E9288CC423118D2E00DCD0FD /* LaunchScreen.storyboard */,
 				E9288CC723118D2E00DCD0FD /* Info.plist */,
@@ -138,9 +168,7 @@
 				E9EEB093231B937100BA9235 /* SlideShow */,
 				E9EEB098231BA92700BA9235 /* LoginPageViewController.swift */,
 				E93B9767231BEFA100AF9392 /* SignUp */,
-				E93B9768231C08B200AF9392 /* GetProfileDetailViewController.swift */,
-				E93B976A231C295900AF9392 /* CameraCaptureViewController.swift */,
-				E93B9795231C43B600AF9392 /* PreviewView.swift */,
+				E90011DC231CEBF9003990D8 /* CameraControl */,
 			);
 			path = handslag;
 			sourceTree = "<group>";
@@ -294,6 +322,7 @@
 			files = (
 				E9288CC623118D2E00DCD0FD /* LaunchScreen.storyboard in Resources */,
 				E9288CC323118D2E00DCD0FD /* Assets.xcassets in Resources */,
+				E90011E0231D0536003990D8 /* CardInfo.xib in Resources */,
 				E9D224F22318CAFE004CDE78 /* ProfileView.xib in Resources */,
 				E9EEB095231B938100BA9235 /* Slide.xib in Resources */,
 				E9D224E82318C15C004CDE78 /* RadarPageView.xib in Resources */,
@@ -365,8 +394,10 @@
 				E9EEB092231B8D5900BA9235 /* SlideShowViewController.swift in Sources */,
 				E93B9796231C43B600AF9392 /* PreviewView.swift in Sources */,
 				E9288CC123118D2C00DCD0FD /* handslag.xcdatamodeld in Sources */,
+				E90011DB231CCA47003990D8 /* PhotoPreviewViewController.swift in Sources */,
 				E93B9769231C08B200AF9392 /* GetProfileDetailViewController.swift in Sources */,
 				E93B976B231C295900AF9392 /* CameraCaptureViewController.swift in Sources */,
+				E90011E3231D0560003990D8 /* CardInfo.swift in Sources */,
 				E9D224EB2318C1CE004CDE78 /* RadarPageView.swift in Sources */,
 				E9EEB097231B93A200BA9235 /* Slide.swift in Sources */,
 				E9EEB099231BA92800BA9235 /* LoginPageViewController.swift in Sources */,
@@ -375,6 +406,7 @@
 				E9D224ED2318C9F5004CDE78 /* OffersView.swift in Sources */,
 				E90FA2352318217600227EAA /* HomePageView.swift in Sources */,
 				E9D224F9231A1303004CDE78 /* LanguageSelectionPage.swift in Sources */,
+				E90011DE231CF747003990D8 /* CardInformationViewController.swift in Sources */,
 				E9EEB08E231B88B800BA9235 /* Defaults.swift in Sources */,
 				E93B9760231BC75300AF9392 /* CommonFunctionalities.swift in Sources */,
 				E93B975E231BC6B800AF9392 /* EmailSignUpViewController.swift in Sources */,

@@ -23,6 +23,8 @@ AVCapturePhotoCaptureDelegate{
     
     @IBOutlet weak var segmentControl: UISegmentedControl!
     
+    @IBOutlet weak var flashLightButton: MDCButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -33,7 +35,36 @@ AVCapturePhotoCaptureDelegate{
         previewView.session = session
         
         setUpUI()
+        
+        flashLightButton.setTitle("off", for: .normal)
+        flashLightButton.addTarget(self, action: #selector(flashLightOnOff(_ :)), for: .touchUpInside)
+        
+        photoPreviewVC =  storyBoard.instantiateViewController(withIdentifier: "PhotoPreviewViewController") as! PhotoPreviewViewController
+    }
     
+    @IBAction func backPressed(_ sender: Any) {
+        
+        dismiss(animated: true, completion: nil)
+        
+    }
+    @IBAction func nextPreviewStage(_ sender: Any) {
+        self.session.stopRunning()
+        self.present(photoPreviewVC!, animated: true, completion: nil)
+    }
+    
+    private var flashMode: AVCaptureDevice.FlashMode = .off
+
+    var flashOn:Bool = false
+    
+    @objc func flashLightOnOff(_ sender: MDCButton) {
+        if(flashOn){
+            sender.setTitle("Off", for: .normal)
+            flashMode = .off
+        } else {
+            sender.setTitle("on", for: .normal)
+            flashMode = .on
+        }
+        flashOn = !flashOn
     }
     
     @IBAction func segmentSelected(_ sender: Any) {
@@ -52,9 +83,17 @@ AVCapturePhotoCaptureDelegate{
         
         let settings = AVCapturePhotoSettings(format: [AVVideoCodecKey: AVVideoCodecType.jpeg])
         
+            settings.flashMode = flashMode
+    
+        
         photoOutput.capturePhoto(with: settings, delegate: self)
         
     }
+    
+    let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+    
+    var photoPreviewVC :PhotoPreviewViewController?
+    var cardInformationVC : CardInformationViewController?
     
     func photoOutput(_ output: AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVCapturePhoto, error: Error?) {
         
@@ -66,12 +105,18 @@ AVCapturePhotoCaptureDelegate{
         switch segmentControl.selectedSegmentIndex {
         case 0:
             frontImage.image = image
+            photoPreviewVC?.front = image
+            cardInformationVC?.front = image
             segmentControl.selectedSegmentIndex = 1
         case 1:
             backImage.image = image
+            photoPreviewVC?.back = image
+            cardInformationVC?.back = image
             segmentControl.selectedSegmentIndex = 2
         default:
             logoImage.image = image
+            photoPreviewVC?.logo = image
+            cardInformationVC?.logo = image
         }
         
     }
@@ -115,11 +160,13 @@ AVCapturePhotoCaptureDelegate{
     
     let photoOutput = AVCapturePhotoOutput()
 
+    let videoDevice = AVCaptureDevice.default(.builtInWideAngleCamera,
+                                              for: .video, position: .unspecified)
+    
     func settingUpCaptureSession() {
         
         session.beginConfiguration()
-        let videoDevice = AVCaptureDevice.default(.builtInWideAngleCamera,
-                                                  for: .video, position: .unspecified)
+        
         guard
             let videoDeviceInput = try? AVCaptureDeviceInput(device: videoDevice!),
             session.canAddInput(videoDeviceInput)
