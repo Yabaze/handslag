@@ -64,6 +64,7 @@ class PhoneNumberSignUpViewController: UIViewController , UITextFieldDelegate {
         secondDigit.delegate = self
         thirdDigit.delegate = self
         forthDigit.delegate = self
+        phoneNumberTextInput.delegate = self
         
         continueButton.addTarget(self, action: #selector(continueClicked), for: .touchUpInside)
         
@@ -169,13 +170,21 @@ class PhoneNumberSignUpViewController: UIViewController , UITextFieldDelegate {
             case forthDigit:
                 forthDigit.resignFirstResponder()
             default:
+                textField.resignFirstResponder()
                 break
             }
         }else{
-            
+            textField.resignFirstResponder()
         }
 
         return true
     }
+    
+//    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+//        if textField == emailTextInput {
+//            textField.resignFirstResponder()
+//        }
+//        return true
+//    }
 
 }

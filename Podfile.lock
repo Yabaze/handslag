@@ -1,4 +1,5 @@
 PODS:
+  - Cosmos (19.0.3)
   - MaterialComponents/AnimationTiming (84.1.1)
   - MaterialComponents/BottomAppBar (84.1.1):
     - MaterialComponents/Buttons
@@ -82,6 +83,7 @@ PODS:
   - MDFTextAccessibility (2.0.0)
 
 DEPENDENCIES:
+  - Cosmos (~> 19.0)
   - MaterialComponents/BottomAppBar
   - "MaterialComponents/BottomAppBar+ColorThemer"
   - MaterialComponents/Buttons
@@ -91,15 +93,17 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Cosmos
     - MaterialComponents
     - MDFInternationalization
     - MDFTextAccessibility
 
 SPEC CHECKSUMS:
+  Cosmos: a6fb17284281fa12cf4c85c2efecd440a215ec44
   MaterialComponents: 85832ad0a4a7c0113f67330fa135b9702aae7f93
   MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
   MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
 
-PODFILE CHECKSUM: e9cae8915e1729cac07f58fe534a136bba019551
+PODFILE CHECKSUM: e325a74a953e6691117bb264fa9ec15f8d40701e
 
 COCOAPODS: 1.6.1

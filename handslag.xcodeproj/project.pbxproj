@@ -28,6 +28,10 @@
 		E93B9769231C08B200AF9392 /* GetProfileDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B9768231C08B200AF9392 /* GetProfileDetailViewController.swift */; };
 		E93B976B231C295900AF9392 /* CameraCaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B976A231C295900AF9392 /* CameraCaptureViewController.swift */; };
 		E93B9796231C43B600AF9392 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B9795231C43B600AF9392 /* PreviewView.swift */; };
+		E96EACF2232032F1002E87FB /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96EACF0232032F1002E87FB /* CardTableViewCell.swift */; };
+		E96EACF3232032F1002E87FB /* CardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E96EACF1232032F1002E87FB /* CardTableViewCell.xib */; };
+		E98EE782231FFEF5001FA66C /* CardFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98EE781231FFEF5001FA66C /* CardFilter.swift */; };
+		E98EE78423201EFE001FA66C /* CardFilter.xib in Resources */ = {isa = PBXBuildFile; fileRef = E98EE78323201EFE001FA66C /* CardFilter.xib */; };
 		E9D224E82318C15C004CDE78 /* RadarPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9D224E72318C15C004CDE78 /* RadarPageView.xib */; };
 		E9D224EB2318C1CE004CDE78 /* RadarPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D224EA2318C1CE004CDE78 /* RadarPageView.swift */; };
 		E9D224ED2318C9F5004CDE78 /* OffersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D224EC2318C9F5004CDE78 /* OffersView.swift */; };
@@ -68,6 +72,10 @@
 		E93B9768231C08B200AF9392 /* GetProfileDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetProfileDetailViewController.swift; sourceTree = "<group>"; };
 		E93B976A231C295900AF9392 /* CameraCaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraCaptureViewController.swift; sourceTree = "<group>"; };
 		E93B9795231C43B600AF9392 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		E96EACF0232032F1002E87FB /* CardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
+		E96EACF1232032F1002E87FB /* CardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardTableViewCell.xib; sourceTree = "<group>"; };
+		E98EE781231FFEF5001FA66C /* CardFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFilter.swift; sourceTree = "<group>"; };
+		E98EE78323201EFE001FA66C /* CardFilter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardFilter.xib; sourceTree = "<group>"; };
 		E9D224E72318C15C004CDE78 /* RadarPageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RadarPageView.xib; sourceTree = "<group>"; };
 		E9D224EA2318C1CE004CDE78 /* RadarPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarPageView.swift; sourceTree = "<group>"; };
 		E9D224EC2318C9F5004CDE78 /* OffersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersView.swift; sourceTree = "<group>"; };
@@ -200,6 +208,10 @@
 			children = (
 				E90FA2342318217600227EAA /* HomePageView.swift */,
 				E90FA236231821A600227EAA /* HomePageView.xib */,
+				E98EE781231FFEF5001FA66C /* CardFilter.swift */,
+				E98EE78323201EFE001FA66C /* CardFilter.xib */,
+				E96EACF0232032F1002E87FB /* CardTableViewCell.swift */,
+				E96EACF1232032F1002E87FB /* CardTableViewCell.xib */,
 			);
 			path = HomePage;
 			sourceTree = "<group>";
@@ -323,8 +335,10 @@
 				E9288CC623118D2E00DCD0FD /* LaunchScreen.storyboard in Resources */,
 				E9288CC323118D2E00DCD0FD /* Assets.xcassets in Resources */,
 				E90011E0231D0536003990D8 /* CardInfo.xib in Resources */,
+				E96EACF3232032F1002E87FB /* CardTableViewCell.xib in Resources */,
 				E9D224F22318CAFE004CDE78 /* ProfileView.xib in Resources */,
 				E9EEB095231B938100BA9235 /* Slide.xib in Resources */,
+				E98EE78423201EFE001FA66C /* CardFilter.xib in Resources */,
 				E9D224E82318C15C004CDE78 /* RadarPageView.xib in Resources */,
 				E9D224F02318CA10004CDE78 /* OffersView.xib in Resources */,
 				E90FA237231821A600227EAA /* HomePageView.xib in Resources */,
@@ -366,6 +380,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-handslag/Pods-handslag-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
 				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
 				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
 				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
@@ -374,6 +389,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
@@ -401,6 +417,7 @@
 				E9D224EB2318C1CE004CDE78 /* RadarPageView.swift in Sources */,
 				E9EEB097231B93A200BA9235 /* Slide.swift in Sources */,
 				E9EEB099231BA92800BA9235 /* LoginPageViewController.swift in Sources */,
+				E98EE782231FFEF5001FA66C /* CardFilter.swift in Sources */,
 				E903F38023119FB80059E3D0 /* DashBoardViewController.swift in Sources */,
 				E9D224FB231A1DEE004CDE78 /* LanguageTableViewCell.swift in Sources */,
 				E9D224ED2318C9F5004CDE78 /* OffersView.swift in Sources */,
@@ -410,6 +427,7 @@
 				E9EEB08E231B88B800BA9235 /* Defaults.swift in Sources */,
 				E93B9760231BC75300AF9392 /* CommonFunctionalities.swift in Sources */,
 				E93B975E231BC6B800AF9392 /* EmailSignUpViewController.swift in Sources */,
+				E96EACF2232032F1002E87FB /* CardTableViewCell.swift in Sources */,
 				E93B9764231BE1B300AF9392 /* CongratulationViewController.swift in Sources */,
 				E9D224F52318CB29004CDE78 /* ProfileView.swift in Sources */,
 				E93B9766231BEF9700AF9392 /* PhoneNumberSignUpViewController.swift in Sources */,

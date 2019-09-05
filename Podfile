@@ -13,5 +13,6 @@ target 'handslag' do
     pod 'MaterialComponents/Buttons+ColorThemer'
     pod 'MaterialComponents/Buttons+ButtonThemer'
     pod 'MaterialComponents/TextFields'
-
+    pod 'Cosmos', '~> 19.0'
+    
 end

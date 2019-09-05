@@ -10,7 +10,7 @@ import UIKit
 import MaterialComponents.MaterialBottomAppBar
 
 class DashBoardViewController: UIViewController {
-
+    
     @IBOutlet var bottomAppBar: MDCBottomAppBarView!
     @IBOutlet weak var homeView: HomePageView!
     @IBOutlet weak var offersView: OffersView!
@@ -30,6 +30,7 @@ class DashBoardViewController: UIViewController {
         fab.setTitle("+", for: .normal)
         fab.setBackgroundColor(.white)
         return fab
+        
     }
     
     override func viewDidLoad() {
@@ -38,6 +39,7 @@ class DashBoardViewController: UIViewController {
         appBarViewInitialization()
         
         bottomBarSelection(homeSelected: false,offerSelected: true,radarSelected: true,profileSelected: true)
+        
     }
     
     func bottomBarSelection(homeSelected:Bool,offerSelected:Bool,radarSelected:Bool,profileSelected:Bool) {

@@ -20,12 +20,12 @@ class CardInformationViewController: UIViewController {
     @IBOutlet weak var backImage: UIImageView!
     @IBOutlet weak var logoImage: UIImageView!
     
-    @IBOutlet weak var cardInformation: CardInfo!
+    @IBOutlet weak var cardInfoScrollView: UIScrollView!
     
     var front :UIImage?
     var back :UIImage?
     var logo:UIImage?
-    
+        
     let commonFunctionalities:CommonFunctionalities = CommonFunctionalities.init()
     
    
