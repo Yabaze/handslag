@@ -8,8 +8,9 @@
 
 import UIKit
 
-class HomePageView: UIView ,UIScrollViewDelegate ,UITableViewDelegate ,UITableViewDataSource {
+class HomePageView: UIView ,UIScrollViewDelegate ,UITableViewDelegate ,UITableViewDataSource ,UITextFieldDelegate  {
     
+    @IBOutlet weak var searchTextFiled: UITextField!
     @IBOutlet weak var homeView: UIView!
     @IBOutlet weak var rootScrollView: UIScrollView!{
         didSet{
@@ -63,6 +64,14 @@ class HomePageView: UIView ,UIScrollViewDelegate ,UITableViewDelegate ,UITableVi
         tableView.register(UINib(nibName: "CardTableViewCell", bundle: nil), forCellReuseIdentifier: "CardTableViewCell")
         
         cardFilterScrollView.isHidden = true
+        searchTextFiled.delegate = self
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        if textField == searchTextFiled {
+            textField.resignFirstResponder()
+        }
+        return true
     }
     
     @IBAction func filterClicked(_ sender: Any) {
@@ -94,48 +103,80 @@ class HomePageView: UIView ,UIScrollViewDelegate ,UITableViewDelegate ,UITableVi
         }
         
         cell.cardImageView.layer.cornerRadius = 15
+        
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(            favouriteTapped(favouriteImageGesture:)))
+        
+        cell.isFavourite.isUserInteractionEnabled = true
+        
+        cell.isFavourite.addGestureRecognizer(tapGestureRecognizer)
 
         return cell
+    }
+    
+    @objc func favouriteTapped(favouriteImageGesture: UITapGestureRecognizer)
+    {
+        print("cool")
     }
     
        func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
            print("You tapped cell number \(indexPath.row).")
        }
-
-       // this method handles row deletion
-    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-
-           if editingStyle == .delete {
-
-               // remove the item from the data model
-               //animals.remove(at: indexPath.row)
-
-               // delete the table view row
-               tableView.deleteRows(at: [indexPath], with: .fade)
-
-           } else if editingStyle == .insert {
-               
-            
-           }
-       }
     
+    func tableView(_ tableView: UITableView,
+                   leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration?
+    {
+        let closeAction = UIContextualAction(style: .normal, title:  "Send", handler: { (ac:UIContextualAction, view:UIView, success:(Bool) -> Void) in
+                print("Card Send Successfully")
+                success(true)
+            })
+            closeAction.image = UIImage(named: "Edit")
+            closeAction.backgroundColor = .purple
     
-    func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
-
-        // action one
-        let editAction = UITableViewRowAction(style: .default, title: "Edit", handler: { (action, indexPath) in
-            print("Edit tapped")
-        })
-        editAction.backgroundColor = UIColor.blue
-
-        // action two
-        let deleteAction = UITableViewRowAction(style: .default, title: "Delete", handler: { (action, indexPath) in
-            print("Delete tapped")
-        })
-        deleteAction.backgroundColor = UIColor.red
-
-        return [editAction, deleteAction]
+            return UISwipeActionsConfiguration(actions: [closeAction])
+    
     }
+    
+    func tableView(_ tableView: UITableView,
+                   trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration?
+    {
+        let email = UIContextualAction(style: .normal, title:  "Email", handler: { (ac:UIContextualAction, view:UIView, success:(Bool) -> Void) in
+            print("Email")
+            success(true)
+        })
+        email.image = UIImage(named: "Edit")
+        email.backgroundColor = .blue
+    
+        let chat = UIContextualAction(style: .normal, title:  nil, handler: { (ac:UIContextualAction, view:UIView, success:(Bool) -> Void) in
+            print("Chat")
+            success(true)
+        })
+        chat.image = UIImage(named: "Edit")
+        chat.backgroundColor = UIColor.green
+        
+        
+        let message = UIContextualAction(style: .normal, title:  nil, handler: { (ac:UIContextualAction, view:UIView, success:(Bool) -> Void) in
+                   print("message")
+                   success(true)
+               })
+        message.image = UIImage(named: "Edit")
+               message.backgroundColor = UIColor.blue
+        
+        let offers = UIContextualAction(style: .normal, title:  nil, handler: { (ac:UIContextualAction, view:UIView, success:(Bool) -> Void) in
+                   print("offers")
+                   success(true)
+               })
+               //rename.backgroundColor = UIColor(patternImage: UIImage(named: "Edit")!)
+               offers.backgroundColor = UIColor.green
+        offers.image = UIImage(named: "Edit")
+        return UISwipeActionsConfiguration(actions: [email,chat,message,offers])
+    }
+    
+    
+    
+    
+    
+    
+    
 
     func createCards() -> [CardFilter]{
         

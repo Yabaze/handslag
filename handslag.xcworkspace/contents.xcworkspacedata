@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:OffersViewModelItem.swift">
+   </FileRef>
+   <FileRef
       location = "group:handslag.xcodeproj">
    </FileRef>
    <FileRef
